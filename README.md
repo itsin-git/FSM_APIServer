@@ -117,21 +117,7 @@ python app/worker.py
 ```
 
 ---
-
-## 테스트
-
-```bash
-# 전체 테스트
-pytest -v
-
-# 특정 파일
-pytest tests/test_incidents.py -v
-
-# 특정 테스트
-pytest tests/test_incidents.py::test_list_incidents -v
-```
-
-테스트는 `AsyncMock`으로 레포지토리를 모킹하므로 실제 DB 연결 없이 실행됩니다.
+## Redis 서버  설치 시 .env에 설정 추가
 
 
 기능 구현 완료 목록.
